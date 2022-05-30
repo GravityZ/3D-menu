@@ -13,7 +13,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(#FC00FF, #00DBDE);
+    background: linear-gradient(-45deg,#FC00FF, #00DBDE);
 }
 
 
@@ -88,4 +88,13 @@ ul li:hover::after{
 
 ul li:last-child::after{
     box-shadow: -100px 100px 20px rgba(0, 0, 0, 0.5);
+}
+
+.icons{
+    transition: 0.5s;
+}
+
+.icons:hover{
+    color: #fff;
+    cursor: pointer;
 }
